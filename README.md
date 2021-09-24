@@ -15,6 +15,7 @@ Imagine those items :
 
 Aggregation by bucket :
 |Bucket|Side|Amount|
+|-------:|-------:|-------:|
 |1M|A|53|
 |1M|L|123|
 |2M|A|3|
@@ -22,6 +23,7 @@ Aggregation by bucket :
 
 Aggregation by counterpart :
 |Group 1|Group 2|Category|Code|Side|Amount|
+|-------:|-------:|-------:|-------:|-------:|-------:|
 |EF|External Loans|Central bank|Central bank|A|19|
 |EF|External Loans|Central bank|Central bank|L|117|
 |EF|Client Deposit|Supra|EPIC|A|3|
