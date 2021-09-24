@@ -5,6 +5,7 @@ Sides : A for Asset, L for Liability
 
 Imagine those items :
 |Amount|Side|Bucket|Groups|Category|Code|
+|-------:|-------:|-------:|-------:|-------:|-------:|
 |16|A|1M|EF, External Loans|Central bank|Central bank|
 |3|A|2M|EF, External Loans|Central bank|Central bank|
 |117|L|1M|EF, External Loans|Central bank|Central bank|
