@@ -1,6 +1,6 @@
 # TreeElements
 
-Apply a multi-level aggregation on a list of items.
+Apply a multi-level aggregation on a list of items, aggregate the amounts.
 Sides : A for Asset, L for Liability
 
 Imagine those items :
@@ -13,7 +13,7 @@ Imagine those items :
 |6|L|1M|EF, Client Deposit|Supra|EPIC|
 |34|A|1M|GBIS, GLFI|Bank|Bank & Credit invest|
 
-Aggregation by bucket :
+Aggregation by bucket/side :
 |Bucket|Side|Amount|
 |-------:|-------:|-------:|
 |1M|A|53|
@@ -21,7 +21,7 @@ Aggregation by bucket :
 |2M|A|3|
 |2M|L|0|
 
-Aggregation by counterpart :
+Aggregation by counterpart/side :
 |Group 1|Group 2|Category|Code|Side|Amount|
 |-------:|-------:|-------:|-------:|-------:|-------:|
 |EF|External Loans|Central bank|Central bank|A|19|
